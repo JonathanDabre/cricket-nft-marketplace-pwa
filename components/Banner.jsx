@@ -13,7 +13,7 @@ const Banner = ({handleCreateClick, handleExploreClick}) => {
         <div className="actionCall md:w-[50%] text-4xl md:text-6xl text-white font-bold mb-5">
           Discover, collect, and sell extraordinary NFTs
         </div>
-        <div className="text-[#8E8E8E] font-normal text-xl mb-6">Explore on the world's best & largest NFT marketplace</div>
+        <div className="text-[#8E8E8E] font-normal text-xl mb-6">Explore on the world&apos;s best & largest NFT marketplace</div>
         <div className="buttons flex space-x-6">
           <button
             onClick={handleExploreClick} // Attach scroll handler
