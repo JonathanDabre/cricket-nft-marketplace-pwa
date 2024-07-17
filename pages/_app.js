@@ -70,6 +70,9 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>CriMarket - Buy NFT of your Heroes</title>
         <meta name="description" content="Your go to NFT marketplace, curated especially for avid cricket fans, so why go anywhere else, explore create and sell." />
+        <meta name="theme-color" content="#121117" /> {/* Change to your desired color */}
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="#121117" />
       </Head>
       <ToastContainer
         position="top-center"
