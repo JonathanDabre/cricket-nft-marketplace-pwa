@@ -4,6 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
   const initialPictures = [
@@ -66,6 +67,10 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      <Head>
+        <title>CriMarket - Buy NFT of your Heroes</title>
+        <meta name="description" content="Your go to NFT marketplace, curated especially for avid cricket fans, so why go anywhere else, explore create and sell." />
+      </Head>
       <ToastContainer
         position="top-center"
         autoClose={1000}
